@@ -1,13 +1,27 @@
 {
   "name": "vue-reactive-promise",
   "version": "0.0.0",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "vitest",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vue",
+    "reactive",
+    "promise",
+    "asynchronous",
+    "async"
+  ],
   "license": "ISC",
   "description": "Make promises reactive.",
   "peerDependencies": {
