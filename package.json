@@ -22,7 +22,7 @@
     "asynchronous",
     "async"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "description": "Make promises reactive.",
   "peerDependencies": {
     "vue": "^3.0.0"
