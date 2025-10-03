@@ -24,6 +24,9 @@
   ],
   "license": "MIT",
   "description": "Make promises reactive.",
+  "repository": {
+    "url": "https://github.com/tuhm1/vue-reactive-promise.git"
+  },
   "peerDependencies": {
     "vue": "^3.0.0"
   },
